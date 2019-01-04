@@ -17,6 +17,7 @@
 		6D1EA4CF21DA348100ECD5E3 /* SwiftDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EA4CE21DA348100ECD5E3 /* SwiftDemoProjectUITests.swift */; };
 		6D1EA4DD21DA34BB00ECD5E3 /*  UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EA4DC21DA34BB00ECD5E3 /*  UIView+Extension.swift */; };
 		6D4301A221DF14D200D72289 /* TestCotrol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4301A121DF14D200D72289 /* TestCotrol.swift */; };
+		6D4301A521DF16B200D72289 /* Test&Script.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D4301A421DF16B200D72289 /* Test&Script.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		6D1EA4D021DA348100ECD5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6D1EA4DC21DA34BB00ECD5E3 /*  UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIView+Extension.swift"; sourceTree = "<group>"; };
 		6D4301A121DF14D200D72289 /* TestCotrol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCotrol.swift; sourceTree = "<group>"; };
+		6D4301A421DF16B200D72289 /* Test&Script.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Test&Script.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -137,9 +139,18 @@
 		6D4301A021DF134A00D72289 /* QRScan&Pay */ = {
 			isa = PBXGroup;
 			children = (
+				6D4301A321DF166E00D72289 /* Untit&Test */,
 				6D4301A121DF14D200D72289 /* TestCotrol.swift */,
 			);
 			path = "QRScan&Pay";
+			sourceTree = "<group>";
+		};
+		6D4301A321DF166E00D72289 /* Untit&Test */ = {
+			isa = PBXGroup;
+			children = (
+				6D4301A421DF16B200D72289 /* Test&Script.swift */,
+			);
+			path = "Untit&Test";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -278,6 +289,7 @@
 				6D1EA4AE21DA347E00ECD5E3 /* ViewController.swift in Sources */,
 				6D1EA4AC21DA347E00ECD5E3 /* AppDelegate.swift in Sources */,
 				6D1EA4DD21DA34BB00ECD5E3 /*  UIView+Extension.swift in Sources */,
+				6D4301A521DF16B200D72289 /* Test&Script.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
