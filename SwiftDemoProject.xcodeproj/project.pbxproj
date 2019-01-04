@@ -15,6 +15,7 @@
 		6D1EA4B921DA348100ECD5E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6D1EA4B721DA348100ECD5E3 /* LaunchScreen.storyboard */; };
 		6D1EA4C421DA348100ECD5E3 /* SwiftDemoProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EA4C321DA348100ECD5E3 /* SwiftDemoProjectTests.swift */; };
 		6D1EA4CF21DA348100ECD5E3 /* SwiftDemoProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EA4CE21DA348100ECD5E3 /* SwiftDemoProjectUITests.swift */; };
+		6D1EA4DD21DA34BB00ECD5E3 /*  UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D1EA4DC21DA34BB00ECD5E3 /*  UIView+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		6D1EA4CA21DA348100ECD5E3 /* SwiftDemoProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6D1EA4CE21DA348100ECD5E3 /* SwiftDemoProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoProjectUITests.swift; sourceTree = "<group>"; };
 		6D1EA4D021DA348100ECD5E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6D1EA4DC21DA34BB00ECD5E3 /*  UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = " UIView+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		6D1EA49F21DA347E00ECD5E3 = {
 			isa = PBXGroup;
 			children = (
+				6D1EA4DC21DA34BB00ECD5E3 /*  UIView+Extension.swift */,
 				6D1EA4AA21DA347E00ECD5E3 /* SwiftDemoProject */,
 				6D1EA4C221DA348100ECD5E3 /* SwiftDemoProjectTests */,
 				6D1EA4CD21DA348100ECD5E3 /* SwiftDemoProjectUITests */,
@@ -99,6 +102,7 @@
 		6D1EA4AA21DA347E00ECD5E3 /* SwiftDemoProject */ = {
 			isa = PBXGroup;
 			children = (
+				6D4301A021DF134A00D72289 /* QRScan&Pay */,
 				6D1EA4AB21DA347E00ECD5E3 /* AppDelegate.swift */,
 				6D1EA4AD21DA347E00ECD5E3 /* ViewController.swift */,
 				6D1EA4AF21DA347E00ECD5E3 /* Main.storyboard */,
@@ -126,6 +130,13 @@
 				6D1EA4D021DA348100ECD5E3 /* Info.plist */,
 			);
 			path = SwiftDemoProjectUITests;
+			sourceTree = "<group>";
+		};
+		6D4301A021DF134A00D72289 /* QRScan&Pay */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "QRScan&Pay";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,6 +273,7 @@
 				6D1EA4B421DA347E00ECD5E3 /* SwiftDemoProject.xcdatamodeld in Sources */,
 				6D1EA4AE21DA347E00ECD5E3 /* ViewController.swift in Sources */,
 				6D1EA4AC21DA347E00ECD5E3 /* AppDelegate.swift in Sources */,
+				6D1EA4DD21DA34BB00ECD5E3 /*  UIView+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
